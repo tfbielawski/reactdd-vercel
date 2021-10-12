@@ -13,10 +13,10 @@ import { Card, Grid } from "semantic-ui-react";
 export default function Monster(data) {
     return (
         <>
-            <h1> Monster </h1>
-            {/*<button> GET MONSTER </button>*/}
-            <p> Refresh to get a new monster! (button coming soon)</p>
             <Grid columns={3}>
+                <h1> Monster </h1>
+                {/*<button> GET MONSTER </button>*/}
+                <p> Refresh to get a new monster! (button coming soon)</p>
                 {/* Map over data passed in from App.js
                    For each monster in data, return a grid card*/}
                 <Grid.Column>
