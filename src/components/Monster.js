@@ -1,10 +1,11 @@
 import React from "react";
 import { Card, Grid } from "semantic-ui-react";
-//indent, align, comments, consoles
+
+//ToDo
 //make cards more informative
 //add races
 //add "get" buttons
-//create export qgetAMonster()- it contains axios calls
+//create export qetAMonster()- it contains axios calls
 //useEffect(()=>{},[monster])
 //onClick={()=>getAMoster()}
 
@@ -13,7 +14,8 @@ export default function Monster(data) {
     return (
         <>
             <h1> Monster </h1>
-            <button> GET MONSTER </button>
+            {/*<button> GET MONSTER </button>*/}
+            <p> Refresh to get a new monster! (button coming soon)</p>
             <Grid columns={3}>
                 {/* Map over data passed in from App.js
                    For each monster in data, return a grid card*/}

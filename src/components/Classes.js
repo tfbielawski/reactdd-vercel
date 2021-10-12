@@ -6,7 +6,8 @@ export default function Classes(data) {
     return (
         <>
             <h1> Classes </h1>
-            <button> GET CLASS</button>
+            {/*<button> GET CLASS</button>*/}
+            <p> Refresh to see a new Character Class (button coming soon)</p>
             <Grid columns={3}>
                 {/* Map over data passed in from App.js
                    For each character class in data, return a grid card*/}
@@ -24,7 +25,7 @@ export default function Classes(data) {
                                     return <p> {p.index} </p>;
                                 })}
 
-                                {/*/ if speccasting is true, map. Else, <NA>
+                                {/*/ if spellasting is true, map. Else, <NA>
                                 !*Map over spellcasting array, populate*!/*/}
                                 <strong>SpellCasting Proficiencies</strong>
                                 {data.data.spellcasting ? (
