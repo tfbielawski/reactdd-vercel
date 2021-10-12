@@ -41,6 +41,7 @@ export default function Classes(data) {
                                 {data.data.subclasses.map((sc) => {
                                     return <p> {sc.name} </p>;
                                 })}
+                                <strong>Click Refresh to Get a Character Class</strong>
                             </Card.Description>
                         </Card.Content>
                     </Card>
